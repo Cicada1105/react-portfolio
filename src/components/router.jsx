@@ -11,7 +11,7 @@ import { NavigationComponent } from './pgs/navigation-component';
 function WebsiteRouter() {
 	return (
 		<Routes>
-			<Route path="/" element={ <Home /> } />
+			<Route exact path="/" element={ <Home /> } />
 			<Route path="/pgs" element={ <NavigationComponent /> }>
 				<Route path="projects" element={ <Projects /> } />
 				<Route path="experience" element={ <Experience /> } />
