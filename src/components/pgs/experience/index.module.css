@@ -1,0 +1,27 @@
+section.experience {
+	background-color: var(--secondary-bg-color);
+	margin-top: 2rem;
+	padding: 1rem;
+}
+h4.experience__title {
+	font-size: 1.45rem;
+	margin: 0rem;
+}
+h5.job__title, h5.university__title {
+	font-size: 1rem;
+	margin-bottom: 0.5rem;
+}
+li.job__description {
+	list-style: initial;
+}
+div.degree {
+	margin-bottom: 0.5rem;
+}
+h6.degree__label {
+	display: inline;
+	margin: 0.5rem 0.75rem 0.5rem 0rem;
+	font-size: 1rem;
+}
+span.degree__title {
+	font-style: italic;
+}

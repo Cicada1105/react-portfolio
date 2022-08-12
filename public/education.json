@@ -1,0 +1,29 @@
+[
+	{
+		"institution_name": "Humber College",
+		"degree_type": "Post Graduate Certificate",
+		"degree": "Web Development",
+		"start_month": "january",
+		"start_year": "2022",
+		"end_month": "december",
+		"end_year": "2022"
+	},
+	{
+		"institution_name": "Lewis University",
+		"degree_type": "Undergraduate",
+		"degree": "Computer Science",
+		"start_month": "august",
+		"start_year": "2017",
+		"end_month": "december",
+		"end_year": "2019"
+	},
+	{
+		"institution_name": "Olivet Nazaren",
+		"degree_type": "Undergraduate",
+		"degree": "Computer Science",
+		"start_month": "august",
+		"start_year": "2016",
+		"end_month": "may",
+		"end_year": "2017"
+	}
+]
