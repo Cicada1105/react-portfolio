@@ -20,7 +20,7 @@
 		"title": "Paradise of Plants",
 		"live_url": "",
 		"github_url": "https://github.com/Cicada1105/paradise-of-plants",
-		"image": null,
+		"image": "../imgs/projects/Paradise-of-Plants.png",
 		"content": "Application for storing information about personal plants"
 	},
 	{
@@ -84,7 +84,7 @@
 		"title": "CarlColvinArts Server",
 		"live_url": "../imgs/projects/CarlColvinArts-Server.png",
 		"github_url": "https://github.com/Cicada1105/cca-server",
-		"image": null,
+		"image": "../imgs/projects/CarlColvinArts-Server.png",
 		"content": "An admin control panel for creating, editing and removing content from CarlColvinArts"
 	},
 	{

@@ -2,12 +2,14 @@ import React, { useEffect, useState } from 'react';
 
 import { ProjectCard } from './project-card.jsx';
 
+const LARAVEL_URL = "http://127.0.0.1:8000/api";
+
 function Projects() {
 	const [projects, setProjects] = useState([]);
 	const [isLoading, setLoading] = useState(true);
 
 	useEffect(() => {
-		fetch("http://localhost:3000/data.json").then(response => response.json()).then(data => {
+		fetch(`/projects.json`).then(response => response.json()).then(data => {
 			setProjects([...data]);
 		}).catch(err => {
 			console.log(err);

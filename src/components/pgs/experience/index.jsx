@@ -5,6 +5,8 @@ import { EducationCard } from './education-card.jsx';
 
 import styles from './index.module.css';
 
+const LARAVEL_URL = 'http://127.0.0.1:8000/api';
+
 function Experience() {
 	const [employments,setEmployments] = useState([]);
 	const [education,setEducation] = useState([]);
@@ -13,23 +15,38 @@ function Experience() {
 	const [isEducationLoading, setEducationLoading] = useState(true);
 
 	useEffect(() => {
-		fetch("http://localhost:3000/employment.json").then(response => response.json()).then(data => {
+		console.log("Use effect");
+		fetch(`/employment.json`).then(response => response.json()).then(data => {
+			// if using local Laravel project, uncomment the following code
+			// data = data.map(el => el["user"]);
+			// Explanation: api call returns employment data nested under "user" field
+
 			setEmployments([...data]);
+
 		}).catch(err => {
 			console.log(err);
 		}).finally(() => {
 			setEmploymentLoading(false);
 		});
-	},[employments]);
+
+		return () => {
+			setEducationLoading([]);
+		}
+	},[]);
+
 	useEffect(() => {
-		fetch("http://localhost:3000/education.json").then(response => response.json()).then(data => {
+		fetch("/education.json").then(response => response.json()).then(data => {
 			setEducation([...data]);
 		}).catch(err => {
 			console.log(err);
 		}).finally(() => {
 			setEducationLoading(false);
 		});
-	},[education]);
+
+		return () => {
+			setEducationLoading([]);
+		}
+	},[])
 
 	return(
 		<main className="page-content" style={{ marginBottom: "2rem" }}>
