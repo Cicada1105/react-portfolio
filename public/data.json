@@ -1,0 +1,106 @@
+[
+	{
+		"id": 1,
+		"title": "Assuage Solutions",
+		"live_url": "",
+		"github_url": "https://github.com/Cicada1105/fake-ecommerce-website",
+		"image": "../imgs/projects/Assuage-Solutions.png",
+		"content": "A fake E-Commerce Website using ExpressJS and Pug templating"
+	},
+	{
+		"id": 2,
+		"title": "Spotify/YouTube Playlist Converter",
+		"live_url": "",
+		"github_url": "https://github.com/Cicada1105/spotify-youtube-playlist-converter",
+		"image": null,
+		"content": "Web application for converting Spotify playlists to YouTube playlists and vice versa"
+	},
+	{
+		"id": 3,
+		"title": "Paradise of Plants",
+		"live_url": "",
+		"github_url": "https://github.com/Cicada1105/paradise-of-plants",
+		"image": null,
+		"content": "Application for storing information about personal plants"
+	},
+	{
+		"id": 4,
+		"title": "Map Mania",
+		"live_url": "",
+		"github_url": "https://github.com/Cicada1105/Map-Maniav2",
+		"image": null,
+		"content": "Used the google maps API to create a map based game"
+	},
+	{
+		"id": 5,
+		"title": "Contact Uploader",
+		"live_url": "",
+		"github_url": "https://github.com/Cicada1105/Contact-Uploader",
+		"image": null,
+		"content": "A simple application to display, create, update and remove contacts"
+	},
+	{
+		"id": 6,
+		"title": "Contact Uploader Server",
+		"live_url": "",
+		"github_url": "https://github.com/Cicada1105/Contact-Uploader-Server",
+		"image": null,
+		"content": "A server for handling basic CRUD requests made by Contact Uploader Application"
+	},
+	{
+		"id": 7,
+		"title": "POSFIX Password Generator",
+		"live_url": "",
+		"github_url": "https://github.com/Cicada1105/Postfix-Hash",
+		"image": null,
+		"content": "A simple hash program that takes an string and executes it through a postfix expression"
+	},
+	{
+		"id": 8,
+		"title": "Software Engineering Project",
+		"live_url": "",
+		"github_url": "https://github.com/FA-19-Engineering/project",
+		"image": null,
+		"content": "Design and program a website with the language of the students' choice. Used Django to design IMDb web application"
+	},
+	{
+		"id": 9,
+		"title": "Senior Capstone Project",
+		"live_url": "",
+		"github_url": "https://github.com/Cicada1105/front-end-react",
+		"image": null,
+		"content": "Worked with university staff member to design and program graduate program course student control panel"
+	},
+	{
+		"id": 10,
+		"title": "MealDB",
+		"live_url": "https://meal-db-eight.vercel.app/Home",
+		"github_url": "https://github.com/Cicada1105/meal-db",
+		"image": "../imgs/projects/MealDB.png",
+		"content": "A web app for discovering new food recipe ideas through ingredients or ethnicity, selecetd from a distinct category list, searchinng for your favorite meal, or simply receiving a random meal if you are unsure"
+	},
+	{
+		"id": 11,
+		"title": "CarlColvinArts Server",
+		"live_url": "../imgs/projects/CarlColvinArts-Server.png",
+		"github_url": "https://github.com/Cicada1105/cca-server",
+		"image": null,
+		"content": "An admin control panel for creating, editing and removing content from CarlColvinArts"
+	},
+	{
+		"id": 12,
+		"title": "CarlColvinArts",
+		"live_url": "https://carlcolvinarts.com/",
+		"github_url": "https://github.com/Cicada1105/carl-colvin-arts",
+		"image": "../imgs/projects/CarlColvinArts.png",
+		"content": "A central hub for displaying talents, services, portfolio and testimonials for Carl Colvin"
+	},
+	{
+		"id": 13,
+		"title": "Old Portfolio Project",
+		"live_url": "https://josh-colvin-portfolio.herokuapp.com/",
+		"github_url": "https://github.com/Cicada1105/Portfolio-old",
+		"image": "../imgs/projects/Old-Portfolio.png",
+		"content": "My old portfolio project written in ReactJS without any database connection"
+	}
+]

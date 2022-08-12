@@ -1,0 +1,50 @@
+figure.project {
+	position: relative;
+	width: 275px;
+}
+.imgContainer {
+	position: relative;
+	width: inherit;
+	height: 141.61px;
+}
+.imgContainer:hover > .projectLinks {
+	display: flex;
+}
+img.projectImg {
+	width: inherit;
+	height: inherit;
+}
+.projectLinks {
+	position: absolute;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+	width: inherit;
+	height: 141.61px;
+	top: 0rem;
+}
+.projectLinks::before {
+	background-color: black;
+	position: absolute;
+	content: "";
+	opacity: 0.4;
+	width: inherit;
+	height: inherit;
+	top: 0rem;
+	z-index: 0;
+}
+a.projectLink {
+	z-index: 1;
+}
+a.projectLink:hover > p.projectLink__text {
+	display: block;
+}
+p.projectLink__text {
+	display: none;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	bottom: 0rem;
+	left: 0rem;
+}

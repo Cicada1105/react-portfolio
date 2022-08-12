@@ -5,13 +5,13 @@ function Contact() {
 		<div className="header-contact-section">
 			<div className="contact-links">
 				<a className="contact-link" href="" target="_blank">
-					<img src="/imgs/email.svg" alt="Email Icon" />
+					<img src="/imgs/contact/email.svg" alt="Email Icon" />
 				</a>
 				<a className="contact-link" href="" target="_blank">
-					<img src="/imgs/instagram.svg" alt="Instagram Icon" />
+					<img src="/imgs/contact/instagram.svg" alt="Instagram Icon" />
 				</a>
 				<a className="contact-link" href="" target="_blank">
-					<img src="/imgs/linkedin.svg" alt="LinkedIn Icon" />
+					<img src="/imgs/contact/linkedin.svg" alt="LinkedIn Icon" />
 				</a>
 			</div>
 			<p className="header__copyright">Copyright &copy; { (new Date()).getFullYear() } JoshColvin.epizy.com</p>
