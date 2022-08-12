@@ -1,0 +1,10 @@
+figure.contactLink {
+	text-align: center;
+}
+figure.contactLink > img {
+	width: 50px;
+}
+figcaption {
+	font-size: 1.15rem;
+	margin-top: 1.5rem;
+}
