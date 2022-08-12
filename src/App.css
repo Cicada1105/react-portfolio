@@ -11,7 +11,11 @@
 		- Social Media Links
 	4. Main
 */
-
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 /**************/
 /*   Global   */
 /**************/
@@ -65,12 +69,18 @@ header.page-header {
 div.header-logo {
 	text-align: center;
 }
+div.header-logo > hgroup {
+	font-family: 'Didact Gothic', sans-serif;
+	font-style: italic;
+}
 div.header-logo h3 {
 	color: var(--accent-font-color);
 }
 
 /* Page Navigation */
 ul.navigation-list {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-weight: 100;
 	flex-direction: column;
 	padding: 0rem;
 }
@@ -82,6 +92,10 @@ li.nav-list-item > a#active {
 }
 
 /* Social Media Links */
+div.header-contact-section {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-weight: 100;
+}
 div.contact-links {
 	display: flex;
 	justify-content: space-around;
@@ -107,5 +121,6 @@ main.page-content {
 	float: right;
 }
 h1.page-content__title {
+	font-family: 'PT Serif', serif;
 	padding-left: 2.5rem;
 }

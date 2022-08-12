@@ -7,7 +7,7 @@ const MONTH = ["january", "february", "march", "april", "may", "june", "july", "
 function EmploymentCard({ title, employer, description, startMonth, startYear, endMonth, endYear }) {
 	return(
 
-		<article className="job">
+		<article className={ styles.job }>
 			<h5 className={ styles.job__title }>{ employer } - { title }</h5>
 			<time dateTime={startYear + "-" + (MONTH.findIndex(m => m === startMonth) + 1)}>
 				{

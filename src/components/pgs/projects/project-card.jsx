@@ -26,7 +26,7 @@ function ProjectCard({ image, title, liveUrl, githubUrl, content }) {
 				</div>
 			</div>
 			<figcaption className={ styles.projectCaption }>
-				<h3>{ title }</h3>
+				<h3 className={ styles.projectCaption__title }>{ title }</h3>
 				{ content }
 			</figcaption>
 		</figure>

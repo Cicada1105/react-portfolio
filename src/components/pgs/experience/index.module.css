@@ -4,8 +4,14 @@ section.experience {
 	padding: 1rem;
 }
 h4.experience__title {
+	font-family: 'PT Serif', serif;
+	font-weight: 100;
 	font-size: 1.45rem;
 	margin: 0rem;
+}
+article.job, article.university {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-weight: 100;
 }
 h5.job__title, h5.university__title {
 	font-size: 1rem;

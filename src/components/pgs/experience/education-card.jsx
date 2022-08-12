@@ -6,7 +6,7 @@ const MONTH = ["january", "february", "march", "april", "may", "june", "july", "
 
 function EducationCard({ institutionName, degreeType, degree, startMonth, startYear, endMonth, endYear }) {
 	return(
-		<article className="university">
+		<article className={ styles.university }>
 			<h5 className={ styles.university__title }>{ institutionName } - { degreeType }</h5>
 			<div className={ styles.degree }>
 				<h6 className={ styles.degree__label }>Degree:</h6>

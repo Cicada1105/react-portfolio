@@ -14,7 +14,7 @@ function Contact() {
 		<main className="page-content">
 			<h1>Contact Page</h1>
 			<hr />
-			<p className="contact__message">You can easily reach me at the email below, or see what I'm up to on Instagram and LinkedIn</p>
+			<p className={ styles.contact__message }>You can easily reach me at the email below, or see what I'm up to on Instagram and LinkedIn</p>
 			<section style={ contactLinksStyles } className="flex-container">
 				<figure className={ styles.contactLink }>
 					<img src="/imgs/contact/contact-email.svg" alt="Email Icon" />

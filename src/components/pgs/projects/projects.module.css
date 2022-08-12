@@ -48,3 +48,10 @@ p.projectLink__text {
 	bottom: 0rem;
 	left: 0rem;
 }
+figcaption.projectCaption {
+	font-family: 'PT Serif', serif;
+	font-size: 1rem;
+}
+h3.projectCaption__title {
+	font-size: 1rem;
+}

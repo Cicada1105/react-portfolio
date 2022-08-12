@@ -1,3 +1,6 @@
+p.contact__message {
+	font-family: 'Didact Gothic', sans-serif;
+}
 figure.contactLink {
 	text-align: center;
 }
@@ -5,6 +8,7 @@ figure.contactLink > img {
 	width: 50px;
 }
 figcaption {
+	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-size: 1.15rem;
 	margin-top: 1.5rem;
 }
