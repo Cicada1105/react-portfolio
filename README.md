@@ -54,3 +54,11 @@ public/
 &nbsp;&nbsp;&nbsp; projects.json - List of my projects
 &nbsp;&nbsp;&nbsp; education.json - List of my previously attended institutions
 &nbsp;&nbsp;&nbsp; employment.json - List of my previous places of employment
+
+### Hacks/Kludges
+---
+Multiple re-renders in the fetch request components have been have been fixed and limited to only making the amount needed. 
+
+If using the local Laravel project, and in the case where too many requests are made, stop the server (or open new terminal in same directory as the running server) and run the following code before starting the server again:
+
+`php artisan cache:clear`
